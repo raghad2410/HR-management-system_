@@ -57,6 +57,7 @@ img {
 main div div {
     display: block;
     width: max-content;
+
     margin: 10px;
     padding: 8px;
     border: solid red;
@@ -86,9 +87,12 @@ footer div {
 }
 
 footer div copyright {
+
     padding: 5px;
     margin: 5px;
+
 }
+
 
 footer nav a {
     text-decoration: none;
