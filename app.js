@@ -212,13 +212,13 @@ EmployeeInformation.prototype.renderInformation = function () {
 
 
 
-const emp1000 = new EmployeeInformation("Ghazi Samer", "Administration", "Senior", "/images/Ghazi.jpg");
-const emp1001 = new EmployeeInformation("Lana Ali", "Finance", "Senior", "/images/Lana.jpg");
-const emp1002 = new EmployeeInformation("Tamara Ayoub", "Marketing", "Senior", "/images/Tamara.jpg");
-const emp1003 = new EmployeeInformation("Safi Walid", "Administration", "Mid-Senior", "/images/Safi.jpg");
-const emp1004 = new EmployeeInformation("Omar Zaid", "Development", "Senior", "/images/Omar.jpg");
-const emp1005 = new EmployeeInformation("Rana Saleh", "Development", "Junior", "/images/Rana.jpg");
-const emp1006 = new EmployeeInformation("Hadi Ahmad", "Finance", "Mid-Senior", "/images/Hadi.jpg");
+const emp1000 = new EmployeeInformation("Ghazi Samer", "Administration", "Senior", "./images/Ghazi.jpg");
+const emp1001 = new EmployeeInformation("Lana Ali", "Finance", "Senior", "./images/Lana.jpg");
+const emp1002 = new EmployeeInformation("Tamara Ayoub", "Marketing", "Senior", "./images/Tamara.jpg");
+const emp1003 = new EmployeeInformation("Safi Walid", "Administration", "Mid-Senior", "./images/Safi.jpg");
+const emp1004 = new EmployeeInformation("Omar Zaid", "Development", "Senior", "./images/Omar.jpg");
+const emp1005 = new EmployeeInformation("Rana Saleh", "Development", "Junior", "./images/Rana.jpg");
+const emp1006 = new EmployeeInformation("Hadi Ahmad", "Finance", "Mid-Senior", "./images/Hadi.jpg");
 
 
 for (let i = 0; i < arr.length; i++) {
